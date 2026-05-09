@@ -186,7 +186,6 @@ main{
     }
 
     .hero{
-        grid-template-columns: 1fr;
         text-align: center;
     }
     .heroText{
@@ -431,6 +430,10 @@ main{
 /* RESPONSIVE */
 
 @media(max-width: 900px){
+    .headerProductos{
+        flex-direction: column;
+        gap: 20px;
+    }
     .sidebar{
         position: static;
         width: 100%;
