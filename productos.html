@@ -33,37 +33,56 @@
             <nav>
                 <ul class="menuProductos">
                     <li>
-                        <button class="botonMenu active">
+                        <button id="todos" class="botonMenu botonCategoria active">
                             <i class="bi bi-arrow-through-heart-fill"></i>
                             Todos los productos
                         </button>
                     </li>
 
                     <li>
-                        <button class="botonMenu">
+                        <button id="taza" class="botonMenu botonCategoria">
                             <i class="bi bi-cup"></i>
                             Tazas
                         </button>
                     </li>
 
                     <li>
-                        <button class="botonMenu">
+                        <button id="matero" class="botonMenu botonCategoria">
                             <i class="bi bi-bag-heart"></i>
-                            Bolso matero
+                            Materos
                         </button>
                     </li>
 
                     <li>
-                        <button class="botonMenu">
+                        <button id="promesa" class="botonMenu botonCategoria">
                             <i class="bi bi-flag-fill"></i>
                             Combo Promesa
                         </button>
                     </li>
 
                     <li>
+                        <button id="maternal" class="botonMenu botonCategoria">
+                            <i class="bi bi-bag-heart"></i>
+                            Maternal
+                        </button>
+                    </li>
+                    <li>
+                        <button id="gorra" class="botonMenu botonCategoria">
+                            <i class="bi bi-bag-heart"></i>
+                            Gorras
+                        </button>
+                    </li>
+                    <li>
+                        <button id="remera" class="botonMenu botonCategoria">
+                            <i class="bi bi-bag-heart"></i>
+                            Remeras
+                        </button>
+                    </li>
+
+                    <li>
                         <a class="botonMenu botonCarrito" href="carrito.html">
                             <i class="bi bi-cart-fill"></i>
-                            Carrito <span class="numerito">0</span>
+                            Carrito <span id="#numerito" class="numerito">0</span>
                         </a>
                     </li>
                 </ul>
@@ -75,56 +94,9 @@
         </aside>
     
         <main class="mainProductos">
-            <h2 class="tituloPrincipal">Todos los productos</h2>
-            <div class="contenedorProductos">
-                <div class="producto">
-                    <img class="productoImg" src="./img/comboPromesa.png" alt="Combo promesa">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Combo Promesa</h3>
-                        <p class="productoPrecio">$15000</p>
-                        <button class="productoBtn">Pedir combo</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="productoImg" src="./img/bolsoMatero.png" alt="Bolso para mate">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Porta mate </h3>
-                        <p class="productoPrecio">$55000</p>
-                        <button class="productoBtn">Pedir Articulo</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="productoImg" src="./img/gorra.png" alt="Gorras">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Gorras </h3>
-                        <p class="productoPrecio">$25000</p>
-                        <button class="productoBtn">Pedir Articulo</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="productoImg" src="./img/remera.png" alt="Combo promesa">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Remeras </h3>
-                        <p class="productoPrecio">$40000</p>
-                        <button class="productoBtn">Pedir Articulo</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="productoImg" src="./img/pechera.png" alt="Combo promesa">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Pecheras</h3>
-                        <p class="productoPrecio">$15000</p>
-                        <button class="productoBtn">Pedir pechera</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="productoImg" src="./img/tazas.png" alt="Combo promesa">
-                    <div class="productoDetalles">
-                        <h3 class="productoTitulo">Tazas</h3>
-                        <p class="productoPrecio">$15000</p>
-                        <button class="productoBtn">Pedir Articulo</button>
-                    </div>
-                </div>
+            <h2 id="tituloPrincipal" class="tituloPrincipal">Todos los productos</h2>
+            <div id="contenedorProductos" class="contenedorProductos">
+                <!--JS-->
             </div>
         </main>
     </div>
