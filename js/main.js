@@ -115,6 +115,56 @@ const productos = [
             id:"remera"
         },
         precio: 40000
+    },
+    //Yerberos
+    {
+        id: "yerbero",
+        titulo: "Yerbero 01",
+        imagen: "img/yerbero(1).png",
+        categoria:{
+            nombre:"Yerberos",
+            id:"yerbero"
+        },
+        precio: 15000
+    },
+    {
+        id: "yerbero",
+        titulo: "Yerbero 02",
+        imagen: "img/yerbero(2).png",
+        categoria:{
+            nombre:"Yerberos",
+            id:"yerbero"
+        },
+        precio: 15000
+    },
+    {
+        id: "yerbero",
+        titulo: "Yerbero 03",
+        imagen: "img/yerbero(3).png",
+        categoria:{
+            nombre:"Yerberos",
+            id:"yerbero"
+        },
+        precio: 15000
+    },
+    {
+        id: "yerbero",
+        titulo: "Yerbero 04",
+        imagen: "img/yerbero(4).png",
+        categoria:{
+            nombre:"Yerberos",
+            id:"yerbero"
+        },
+        precio: 15000
+    },
+    {id: "yerbero",
+        titulo: "Yerbero 05",
+        imagen: "img/yerbero(5).png",
+        categoria:{
+            nombre:"Yerberos",
+            id:"yerbero"
+        },
+        precio: 15000
     }
 ];
 
