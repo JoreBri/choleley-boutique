@@ -122,7 +122,7 @@ const contenedorProductos= document.querySelector("#contenedorProductos");
 const botonesCategoria = document.querySelectorAll(".botonCategoria");
 const tituloPrincipal= document.querySelector("#tituloPrincipal");
 let botonesAgregar = document.querySelectorAll(".productoBtn");
-constnumerito = document.querySelector("#numerito");
+const numerito = document.querySelector("#numerito");
 
 function cargarProductos(productosElegidos){
 
